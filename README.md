@@ -75,7 +75,7 @@ As a Data Engineer, I optimized data pipelines for large datasets, automated man
 
 This article is inspired by a post written by a Databricks engineer. It is aimed at company engineers who use the Databricks ecosystem but are unclear about why they chose it or its advantages. With this piece, we hope to demystify the underlying concepts and benefits of Databricks, specifically in comparison to Data Warehouses and Data Lakes.
 
--[Unleashing the Power of LLMs: Revolutionizing Natural Language with Advanced AI Models](https://medium.com/@wuxinyao1996/unleashing-the-power-of-llms-revolutionizing-natural-language-with-advanced-ai-models-1cf5b6afeea4)
+- [Unleashing the Power of LLMs: Revolutionizing Natural Language with Advanced AI Models](https://medium.com/@wuxinyao1996/unleashing-the-power-of-llms-revolutionizing-natural-language-with-advanced-ai-models-1cf5b6afeea4)
 
 [Alternative link if you don't have access to Medium](https://xinyao0118.github.io/2023/07/09/LLM/)
 
