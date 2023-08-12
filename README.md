@@ -20,7 +20,7 @@ Built and evaluated a Large Language Model using a pre-trained BERT model for an
 [pipeline](https://xinyao0118.github.io/2023/07/22/restructure-llm-hugging-face-version/)
 
 ### [ICR - Identifying Age-Related Conditions](https://github.com/Xinyao0118/ICR---Identifying-Age-Related-Conditions)
-Initially, I utilized LightGBM with Optuna for hyperparameter tuning, running 100 trials. Post-analysis of the feature importance plot led me to limit the feature list and ensemble five LightGBM models. The cross-validation displayed an impressive AUC of 0.99, yet the leaderboard (LB) score wasn't as good as expected (0.22).
+Initially, I utilized LightGBM with Optuna for hyperparameter tuning, running 100 trials. Post-analysis of the feature importance plot led me to limit the feature list and ensemble five LightGBM models. The cross-validation displayed an impressive AUC of 0.99, yet the private leaderboard (LB) score wasn't as good as expected (0.22).
 
 Recognizing this, I delved into diagnosing the issue and improving the model. I discovered:
 
@@ -35,7 +35,7 @@ In light of these insights, I initiated several improvements:
 - Shifted my ensemble strategy from averaging 5 LightGBM models to a voting system encompassing logistic regression, random forest, and SVM models.
 - Changed the cross-validation metric from AUC to recall.
 
-The new verson's LB score is waiting for calculation...
+**Update** improved the __public__ Leaderboard score from 0.64 to 0.53.
 
 
 ### [Google - American Sign Language Fingerspelling Recognition](https://github.com/Xinyao0118/Google--American-Sign-Language-Fingerspelling-Recognition)
